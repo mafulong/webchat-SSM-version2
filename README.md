@@ -1,7 +1,7 @@
 # webchat-SSM-version2
 基于websocket的web聊天室 Spring + Spring MVC + Mybatis+mysql，版本2
 
-#WebChat聊天室
+# WebChat聊天室
 
 ```
 - 使用mysql替换oracle 
@@ -10,7 +10,7 @@
 
 [websocket](http://www.manongjc.com/article/4406.html)
 
-##一.所用技术
+## 一.所用技术
 项目使用Maven构建,后台使用的语言是JAVA
 
 框架为Spring + Spring MVC + Mybatis
@@ -20,7 +20,7 @@
 
 开发工具使用的是[IntelliJ IDEA 15.0.1](http://www.jetbrains.com/idea/)
 
-##二.数据交互格式
+## 二.数据交互格式
 在WebChat中定义的前后台数据交换格式如下:
 ```
 "message" : {
@@ -42,10 +42,10 @@ type是消息类型,分为两种,notice和message.notice是提示类型,比如xx
 
 list是当前在线的用户名的列表,只在后台触发onopen和onclose时返回list,然后更新前台的在线列表,实现实时的列表展示
 
-##三.实现功能
+## 三.实现功能
 用户登录,用户信息展示,用户信息修改,用户头像修改,修改密码,在线聊天,在线列表展示,群聊和私聊,日志记录展示等.
 
-##四.使用方法
+## 四.使用方法
 数据库:webapp/file/sql/webchat.sql,直接导入数据库即可
 
 JAR包:在webapp/file/jar,这里放了所有用到的JAR包,方便不会maven的同学,不过还是建议学一学maven
@@ -53,7 +53,7 @@ JAR包:在webapp/file/jar,这里放了所有用到的JAR包,方便不会maven的
 项目直接导入eclipse或者idea即可
 内置两个账号:admin/admin, Amayadream/123456
 
-##五.截图
+## 五.截图
 聊天截图
 ![聊天截图](https://raw.githubusercontent.com/Amayadream/WebChat/master/src/main/webapp/file/photo/1.png)
 ![聊天截图](https://raw.githubusercontent.com/Amayadream/WebChat/master/src/main/webapp/file/photo/2.png)
