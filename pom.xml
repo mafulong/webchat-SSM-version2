@@ -10,7 +10,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.2.4.RELEASE</spring.version>
-        <mybatis.version>3.2.6</mybatis.version>
+        <mybatis.version>3.5.6</mybatis.version>
         <mysql-jdbc.version>5.1.38</mysql-jdbc.version>
         <activiti.version>5.19.0</activiti.version>
         <mongodb.version>3.2.0</mongodb.version>
